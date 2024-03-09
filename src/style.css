@@ -1,0 +1,96 @@
+#header{
+    font-size: 65px; 
+    font-family: 'Fredoka One', cursive; 
+    text-align: center; 
+    color: #5a5243;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #FFFFF4;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 80%;
+}
+#content {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#nav {
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 4px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.flex-lay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.grid-lay {
+    display: grid;
+    justify-items: center;
+}
+.section {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.2rem;
+}
+.section-title {
+    font-size: 36px;
+}
+.section-description {
+    font-size: 24px;
+    text-align: center;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    background-color: #000;
+    margin-top: 45px;
+}
+#footer a{
+    color:grey;
+    text-decoration: none;
+
+}
+#footer p{
+    font-size: 18px;
+}
+#nav span{
+    font-weight: 400;
+    font-size: 24px;
+}
+.food img {
+    width: 400px;
+    height: 270px;
+}
+.food {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 280px;
+    margin: 20px 0;
+}
+.food .description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.food .description h3 {
+    font-size: 22px;
+}
